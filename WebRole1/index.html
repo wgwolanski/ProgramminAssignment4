@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My Crawler</title>
+    <script src="jquery.js"></script>
+    <script src="callFunc.js"></script>
+
+</head>
+<body>
+    <script type='text/javascript' src='http://ads.qadserve.com/t?id=61547c7f-5d61-41a5-b252-3d511b7beb8d&size=468x60'></script>
+    <h1>Dashboard</h1>
+    <div id="dashboard"></div>
+    <input type="button" value="Update Dashboard" id="dashbutton" onclick="dashboardStats()">
+    <button class="start">Start</button>
+    <button class="stop">Clear</button><br />
+    <h2>Search Here</h2>
+    <input type="search" id="searchbar" onkeyup="loadSuggestions()">
+    <input type="button" value="Search" id="searchbutton" onclick="searchFunction()">
+    
+    <div id="results"></div>
+    <div id="tableresults"></div>
+    <div id="stats"></div>
+    
+</body>
+</html>
